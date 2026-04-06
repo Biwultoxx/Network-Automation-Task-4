@@ -23,8 +23,8 @@ def run_mitigation():
         device = {
             'device_type': 'mikrotik_routeros',
             'host': ip.strip(),
-            'username': 'admin',
-            'password': 'polibest123',
+            'username': '<USER>',
+            'password': '<PASSWORD>',
         }
 
         router_result = {
